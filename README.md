@@ -1,86 +1,98 @@
-# stripPackingDataset
-Benchmark dataset modeled as stable set
-| Instance | Pieces |       | Board    |          | Graph     |         |
-|----------|--------|-------|----------|----------|-----------|---------|
-|          | Total  | Types | Width(Y) | Length(X)| Vertices  | Edges   |
-| three | 3 | 3 | 7 | 7 | 61 | 1482 |
-| threep2 | 6 | 3 | 7 | 11 | 234 | 14789 |
-| threep2w9 | 6 | 3 | 9 | 9 | 254 | 16929 |
-| threep3 | 9 | 3 | 7 | 16 | 561 | 59772 |
-| threep3w9 | 9 | 3 | 9 | 13 | 621 | 71562 |
-| shapes4-small | 4 | 4 | 13 | 24 | 389 | 56889 |
-| shapes8 | 8 | 4 | 20 | 28 | 2016 | 987386 |
-| SHAPES2 | 8 | 4 | 40 | 16 | 1696 | 550888 |
-| SHAPES4 | 16 | 4 | 40 | 28 | 9872 | 12289552 |
-| SHAPES5 | 20 | 4 | 40 | 35 | 17065 | 29895140 |
-| SHAPES7 | 28 | 4 | 40 | 48 | 36176 | 97873895 |
-| SHAPES9 | 34 | 4 | 40 | 54 | 51308 | 166967503 |
-| SHAPES15 | 43 | 4 | 40 | 67 | 84523 | 359324961 |
-| blasz2 | 20 | 4 | 15 | 27 | 18125 | 16748225 |
-| BLAZEWICZ1 | 7 | 7 | 15 | 8 | 432 | 44748 |
-| BLAZEWICZ2 | 14 | 7 | 15 | 16 | 2192 | 625988 |
-| BLAZEWICZ3 | 21 | 7 | 15 | 22 | 4782 | 2144601 |
-| BLAZEWICZ4 | 28 | 7 | 15 | 29 | 8700 | 5392002 |
-| BLAZEWICZ5 | 35 | 7 | 15 | 36 | 13780 | 10899250 |
-| RCO1 | 7 | 7 | 15 | 8 | 432 | 45218 |
-| RCO2 | 14 | 7 | 15 | 17 | 2358 | 701409 |
-| RCO3 | 21 | 7 | 15 | 25 | 5529 | 2638146 |
-| RCO4 | 28 | 7 | 15 | 29 | 8700 | 5463230 |
-| RCO5 | 35 | 7 | 15 | 41 | 15851 | 13256925 |
-| artif1_2 | 13 | 8 | 27 | 8 | 161 | 3284762 |
-| artif2_4 | 26 | 8 | 27 | 14 | 699 | 43344337 |
-| artif3_6 | 39 | 8 | 27 | 20 | 1614 | 312665037 |
-| artif4_8 | 52 | 8 | 27 | 28 | 3157 | 235478854 |
-| artif5_10 | 65 | 8 | 27 | 34 | 4888 | 569836670 |
-| artif6_12 | 78 | 8 | 27 | 41 | 7185 | 1012564752 |
-| artif7_14 | 91 | 8 | 27 | 48 | 9921 | 1205211307 |
-| artif9 | 98 | 27 | 5 | 31 | 1976 | 4274433440 |
-| shirts1_2 | 13 | 8 | 40 | 13 | 357 | 9968657 |
-| shirts2_4 | 26 | 8 | 40 | 20 | 1408 | 810098942 |
-| shirts3_6 | 39 | 8 | 40 | 26 | 3004 | 235919423 |
-| shirts4_8 | 52 | 8 | 40 | 35 | 5787 | 6103254682 |
-| shirts5_10 | 65 | 8 | 40 | 42 | 8967 | 0206849165 |
-| dagli1 | 10 | 10 | 60 | 25 | 689 | 98410749 |
-| fu5 | 5 | 4 | 38 | 18 | 98 | 2285416 |
-| fu6 | 6 | 5 | 38 | 24 | 215 | 71358726 |
-| fu7 | 7 | 6 | 38 | 24 | 260 | 71895406 |
-| fu8 | 8 | 7 | 38 | 24 | 320 | 72617533 |
-| fu9 | 9 | 8 | 38 | 29 | 478 | 25311292 |
-| fu10 | 10 | 9 | 38 | 34 | 670 | 79485138 |
-| fu12 | 11 | 3 | 38 | 38 | 948 | 316373607 |
-| J1-10-10-0 | 10 | 9 | 10 | 20 | 111 | 4209946 |
-| J1-10-10-1 | 10 | 10 | 10 | 19 | 106 | 5200449 |
-| J1-10-10-2 | 10 | 9 | 10 | 21 | 115 | 3230792 |
-| J1-10-10-3 | 10 | 10 | 10 | 23 | 128 | 4297254 |
-| J1-10-10-4 | 10 | 10 | 10 | 15 | 88 | 0127883 |
-| J1-12-20-0 | 12 | 11 | 20 | 12 | 170 | 2426424 |
-| J1-12-20-1 | 12 | 11 | 20 | 11 | 146 | 7330732 |
-| J1-12-20-2 | 12 | 12 | 20 | 14 | 203 | 9592992 |
-| J1-12-20-3 | 12 | 12 | 20 | 10 | 134 | 4239551 |
-| J1-12-20-4 | 12 | 12 | 20 | 16 | 279 | 61002707 |
-| J1-14-20-0 | 14 | 13 | 20 | 14 | 247 | 9760279 |
-| J1-14-20-1 | 14 | 13 | 20 | 14 | 245 | 4741543 |
-| J1-14-20-2 | 14 | 14 | 20 | 16 | 280 | 51004295 |
-| J1-14-20-3 | 14 | 13 | 20 | 12 | 215 | 9541023 |
-| J1-14-20-4 | 14 | 13 | 20 | 16 | 279 | 61002707 |
-| J2-10-35-0 | 10 | 9 | 35 | 28 | 517 | 65209870 |
-| J2-10-35-1 | 10 | 9 | 35 | 28 | 516 | 05289402 |
-| J2-10-35-2 | 10 | 10 | 35 | 27 | 489 | 24689203 |
-| J2-10-35-3 | 10 | 9 | 35 | 25 | 483 | 24402769 |
-| J2-10-35-4 | 10 | 10 | 35 | 22 | 399 | 23251262 |
-| J2-12-35-0 | 12 | 11 | 35 | 31 | 702 | 09038963 |
-| J2-12-35-1 | 12 | 11 | 35 | 29 | 671 | 67610762 |
-| J2-12-35-2 | 12 | 10 | 35 | 30 | 724 | 68457450 |
-| J2-12-35-3 | 12 | 11 | 35 | 25 | 592 | 46049057 |
-| J2-12-35-4 | 12 | 11 | 35 | 29 | 697 | 67936788 |
-| J2-14-35-0 | 14 | 13 | 35 | 34 | 958 | 814100408 |
-| J2-14-35-1 | 14 | 13 | 35 | 33 | 934 | 813120948 |
-| J2-14-35-2 | 14 | 11 | 35 | 33 | 978 | 013345816 |
-| J2-14-35-3 | 14 | 13 | 35 | 29 | 827 | 210506375 |
-| J2-14-35-4 | 14 | 13 | 35 | 31 | 883 | 611504643 |
-| poly1a | 15 | 15 | 40 | 18 | 562 | 04171977 |
-| poly1b | 15 | 15 | 40 | 21 | 685 | 86268803 |
-| poly1c | 15 | 15 | 40 | 14 | 443 | 72170059 |
-| poly1d | 15 | 15 | 40 | 14 | 452 | 72566407 |
-| poly1e | 15 | 15 | 40 | 13 | 363 | 81692449 |
-| jakobs1 | 25 | 22 | 40 | 13 | 843 | 85089398 |
+# Dataset overview
+<table>
+<tr>
+  <th rowspan="2">Instance</th>
+  <th colspan="2">Pieces</th>
+  <th colspan="2">Board</th>
+  <th colspan="2">Graph</th>
+</tr>
+<tr>
+  <th>Total</th>
+  <th>Types</th>
+  <th>Width(Y)</th>
+  <th>Length(X)</th>
+  <th>Vertices</th>
+  <th>Edges</th>
+</tr>
+<tr><td>three</td><td>3</td><td>3</td><td>7</td><td>7</td><td>61</td><td>1482</td></tr>
+<tr><td>threep2</td><td>6</td><td>3</td><td>7</td><td>11</td><td>234</td><td>14789</td></tr>
+<tr><td>threep2w9</td><td>6</td><td>3</td><td>9</td><td>9</td><td>254</td><td>16929</td></tr>
+<tr><td>threep3</td><td>9</td><td>3</td><td>7</td><td>16</td><td>561</td><td>59772</td></tr>
+<tr><td>threep3w9</td><td>9</td><td>3</td><td>9</td><td>13</td><td>621</td><td>71562</td></tr>
+<tr><td>shapes4-small</td><td>4</td><td>4</td><td>13</td><td>24</td><td>389</td><td>56889</td></tr>
+<tr><td>shapes8</td><td>8</td><td>4</td><td>20</td><td>28</td><td>2016</td><td>987386</td></tr>
+<tr><td>SHAPES2</td><td>8</td><td>4</td><td>40</td><td>16</td><td>1696</td><td>550888</td></tr>
+<tr><td>SHAPES4</td><td>16</td><td>4</td><td>40</td><td>28</td><td>9872</td><td>12289552</td></tr>
+<tr><td>SHAPES5</td><td>20</td><td>4</td><td>40</td><td>35</td><td>17065</td><td>29895140</td></tr>
+<tr><td>SHAPES7</td><td>28</td><td>4</td><td>40</td><td>48</td><td>36176</td><td>97873895</td></tr>
+<tr><td>SHAPES9</td><td>34</td><td>4</td><td>40</td><td>54</td><td>51308</td><td>166967503</td></tr>
+<tr><td>SHAPES15</td><td>43</td><td>4</td><td>40</td><td>67</td><td>84523</td><td>359324961</td></tr>
+<tr><td>blasz2</td><td>20</td><td>4</td><td>15</td><td>27</td><td>18125</td><td>16748225</td></tr>
+<tr><td>BLAZEWICZ1</td><td>7</td><td>7</td><td>15</td><td>8</td><td>432</td><td>44748</td></tr>
+<tr><td>BLAZEWICZ2</td><td>14</td><td>7</td><td>15</td><td>16</td><td>2192</td><td>625988</td></tr>
+<tr><td>BLAZEWICZ3</td><td>21</td><td>7</td><td>15</td><td>22</td><td>4782</td><td>2144601</td></tr>
+<tr><td>BLAZEWICZ4</td><td>28</td><td>7</td><td>15</td><td>29</td><td>8700</td><td>5392002</td></tr>
+<tr><td>BLAZEWICZ5</td><td>35</td><td>7</td><td>15</td><td>36</td><td>13780</td><td>10899250</td></tr>
+<tr><td>RCO1</td><td>7</td><td>7</td><td>15</td><td>8</td><td>432</td><td>45218</td></tr>
+<tr><td>RCO2</td><td>14</td><td>7</td><td>15</td><td>17</td><td>2358</td><td>701409</td></tr>
+<tr><td>RCO3</td><td>21</td><td>7</td><td>15</td><td>25</td><td>5529</td><td>2638146</td></tr>
+<tr><td>RCO4</td><td>28</td><td>7</td><td>15</td><td>29</td><td>8700</td><td>5463230</td></tr>
+<tr><td>RCO5</td><td>35</td><td>7</td><td>15</td><td>41</td><td>15851</td><td>13256925</td></tr>
+<tr><td>artif1_2</td><td>13</td><td>8</td><td>27</td><td>8</td><td>161</td><td>3284762</td></tr>
+<tr><td>artif2_4</td><td>26</td><td>8</td><td>27</td><td>14</td><td>699</td><td>43344337</td></tr>
+<tr><td>artif3_6</td><td>39</td><td>8</td><td>27</td><td>20</td><td>1614</td><td>312665037</td></tr>
+<tr><td>artif4_8</td><td>52</td><td>8</td><td>27</td><td>28</td><td>3157</td><td>235478854</td></tr>
+<tr><td>artif5_10</td><td>65</td><td>8</td><td>27</td><td>34</td><td>4888</td><td>569836670</td></tr>
+<tr><td>artif6_12</td><td>78</td><td>8</td><td>27</td><td>41</td><td>7185</td><td>1012564752</td></tr>
+<tr><td>artif7_14</td><td>91</td><td>8</td><td>27</td><td>48</td><td>9921</td><td>1205211307</td></tr>
+<tr><td>artif9</td><td>98</td><td>27</td><td>5</td><td>31</td><td>1976</td><td>4274433440</td></tr>
+<tr><td>shirts1_2</td><td>13</td><td>8</td><td>40</td><td>13</td><td>357</td><td>9968657</td></tr>
+<tr><td>shirts2_4</td><td>26</td><td>8</td><td>40</td><td>20</td><td>1408</td><td>810098942</td></tr>
+<tr><td>shirts3_6</td><td>39</td><td>8</td><td>40</td><td>26</td><td>3004</td><td>235919423</td></tr>
+<tr><td>shirts4_8</td><td>52</td><td>8</td><td>40</td><td>35</td><td>5787</td><td>6103254682</td></tr>
+<tr><td>shirts5_10</td><td>65</td><td>8</td><td>40</td><td>42</td><td>8967</td><td>206849165</td></tr>
+<tr><td>dagli1</td><td>10</td><td>10</td><td>60</td><td>25</td><td>689</td><td>98410749</td></tr>
+<tr><td>fu5</td><td>5</td><td>4</td><td>38</td><td>18</td><td>98</td><td>2285416</td></tr>
+<tr><td>fu6</td><td>6</td><td>5</td><td>38</td><td>24</td><td>215</td><td>71358726</td></tr>
+<tr><td>fu7</td><td>7</td><td>6</td><td>38</td><td>24</td><td>260</td><td>71895406</td></tr>
+<tr><td>fu8</td><td>8</td><td>7</td><td>38</td><td>24</td><td>320</td><td>72617533</td></tr>
+<tr><td>fu9</td><td>9</td><td>8</td><td>38</td><td>29</td><td>478</td><td>25311292</td></tr>
+<tr><td>fu10</td><td>10</td><td>9</td><td>38</td><td>34</td><td>670</td><td>79485138</td></tr>
+<tr><td>fu12</td><td>11</td><td>3</td><td>38</td><td>38</td><td>948</td><td>316373607</td></tr>
+<tr><td>J1-10-10-0</td><td>10</td><td>9</td><td>10</td><td>20</td><td>111</td><td>4209946</td></tr>
+<tr><td>J1-10-10-1</td><td>10</td><td>10</td><td>10</td><td>19</td><td>106</td><td>5200449</td></tr>
+<tr><td>J1-10-10-2</td><td>10</td><td>9</td><td>10</td><td>21</td><td>115</td><td>3230792</td></tr>
+<tr><td>J1-10-10-3</td><td>10</td><td>10</td><td>10</td><td>23</td><td>128</td><td>4297254</td></tr>
+<tr><td>J1-10-10-4</td><td>10</td><td>10</td><td>10</td><td>15</td><td>88</td><td>127883</td></tr>
+<tr><td>J1-12-20-0</td><td>12</td><td>11</td><td>20</td><td>12</td><td>170</td><td>2426424</td></tr>
+<tr><td>J1-12-20-1</td><td>12</td><td>11</td><td>20</td><td>11</td><td>146</td><td>7330732</td></tr>
+<tr><td>J1-12-20-2</td><td>12</td><td>12</td><td>20</td><td>14</td><td>203</td><td>9592992</td></tr>
+<tr><td>J1-12-20-3</td><td>12</td><td>12</td><td>20</td><td>10</td><td>134</td><td>4239551</td></tr>
+<tr><td>J1-12-20-4</td><td>12</td><td>12</td><td>20</td><td>16</td><td>279</td><td>61002707</td></tr>
+<tr><td>J1-14-20-0</td><td>14</td><td>13</td><td>20</td><td>14</td><td>247</td><td>9760279</td></tr>
+<tr><td>J1-14-20-1</td><td>14</td><td>13</td><td>20</td><td>14</td><td>245</td><td>4741543</td></tr>
+<tr><td>J1-14-20-2</td><td>14</td><td>14</td><td>20</td><td>16</td><td>280</td><td>51004295</td></tr>
+<tr><td>J1-14-20-3</td><td>14</td><td>13</td><td>20</td><td>12</td><td>215</td><td>9541023</td></tr>
+<tr><td>J1-14-20-4</td><td>14</td><td>13</td><td>20</td><td>16</td><td>279</td><td>61002707</td></tr>
+<tr><td>J2-10-35-0</td><td>10</td><td>9</td><td>35</td><td>28</td><td>517</td><td>65209870</td></tr>
+<tr><td>J2-10-35-1</td><td>10</td><td>9</td><td>35</td><td>28</td><td>516</td><td>5289402</td></tr>
+<tr><td>J2-10-35-2</td><td>10</td><td>10</td><td>35</td><td>27</td><td>489</td><td>24689203</td></tr>
+<tr><td>J2-10-35-3</td><td>10</td><td>9</td><td>35</td><td>25</td><td>483</td><td>24402769</td></tr>
+<tr><td>J2-10-35-4</td><td>10</td><td>10</td><td>35</td><td>22</td><td>399</td><td>23251262</td></tr>
+<tr><td>J2-12-35-0</td><td>12</td><td>11</td><td>35</td><td>31</td><td>702</td><td>9038963</td></tr>
+<tr><td>J2-12-35-1</td><td>12</td><td>11</td><td>35</td><td>29</td><td>671</td><td>67610762</td></tr>
+<tr><td>J2-12-35-2</td><td>12</td><td>10</td><td>35</td><td>30</td><td>724</td><td>68457450</td></tr>
+<tr><td>J2-12-35-3</td><td>12</td><td>11</td><td>35</td><td>25</td><td>592</td><td>46049057</td></tr>
+<tr><td>J2-12-35-4</td><td>12</td><td>11</td><td>35</td><td>29</td><td>697</td><td>67936788</td></tr>
+<tr><td>J2-14-35-0</td><td>14</td><td>13</td><td>35</td><td>34</td><td>958</td><td>814100408</td></tr>
+<tr><td>J2-14-35-1</td><td>14</td><td>13</td><td>35</td><td>33</td><td>934</td><td>813120948</td></tr>
+<tr><td>J2-14-35-2</td><td>14</td><td>11</td><td>35</td><td>33</td><td>978</td><td>13345816</td></tr>
+<tr><td>J2-14-35-3</td><td>14</td><td>13</td><td>35</td><td>29</td><td>827</td><td>210506375</td></tr>
+<tr><td>J2-14-35-4</td><td>14</td><td>13</td><td>35</td><td>31</td><td>883</td><td>611504643</td></tr>
+<tr><td>poly1a</td><td>15</td><td>15</td><td>40</td><td>18</td><td>562</td><td>4171977</td></tr>
+<tr><td>poly1b</td><td>15</td><td>15</td><td>40</td><td>21</td><td>685</td><td>86268803</td></tr>
+<tr><td>poly1c</td><td>15</td><td>15</td><td>40</td><td>14</td><td>443</td><td>72170059</td></tr>
+<tr><td>poly1d</td><td>15</td><td>15</td><td>40</td><td>14</td><td>452</td><td>72566407</td></tr>
+<tr><td>poly1e</td><td>15</td><td>15</td><td>40</td><td>13</td><td>363</td><td>81692449</td></tr>
+<tr><td>jakobs1</td><td>25</td><td>22</td><td>40</td><td>13</td><td>843</td><td>85089398</td></tr>
+</table>
