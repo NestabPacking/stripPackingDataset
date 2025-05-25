@@ -1,7 +1,8 @@
 # stripPackingDataset
 Benchmark dataset modeled as stable set
-| name | pieces | types | Board Width(Y) | Board Lengh(X) | nodes | edges |
-|-------|-------|-------|-------|-------|-------|-------|
+| Instance | Pieces |       | Board    |          | Graph     |         |
+|----------|--------|-------|----------|----------|-----------|---------|
+|          | Total  | Types | Width(Y) | Length(X)| Vertices  | Edges   |
 | three | 3 | 3 | 7 | 7 | 61 | 1482 |
 | threep2 | 6 | 3 | 7 | 11 | 234 | 14789 |
 | threep2w9 | 6 | 3 | 9 | 9 | 254 | 16929 |
