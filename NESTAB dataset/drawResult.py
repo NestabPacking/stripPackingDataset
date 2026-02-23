@@ -2,9 +2,9 @@ from drawUtils import *
 import os ,copy ,json
 
 MaxStableSets = [9,20,41]
-MaxStableSets = [1,35,51]
-datasetname = 'three'
-cut = 0
+MaxStableSets = [0,173,365,491,691,737,957,1096,1292,1658,1765,1969,2096]
+datasetname = 'J1-14-20-4'
+cut = 13
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -30,7 +30,7 @@ with open(pointcoordfile, 'r') as file:
             continue
         else:
             line = line.strip()
-            s = line.split(' ')
+            s = line.split(',')
             pos[int(s[3])]={"x":float(s[1]),"y":float(s[2]),"Layer":int(s[0])}
 
 layermap = {}
@@ -71,7 +71,7 @@ for v in bins:
 binpieces.append(binlayer)
 
 print("drawing graph..")
-drawPolygons(polygonsdraws,'polygons',1,'purple')
+drawPolygons(polygonsdraws,'polygons',1,'purple',fill=True)
 drawPolygons(binpieces,'board',2,'green')
 
 
