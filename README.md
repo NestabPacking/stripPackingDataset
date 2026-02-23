@@ -132,9 +132,9 @@
     <tr><td><code>J2-12-35-4</code></td><td>12</td><td>[35:29]</td><td>26*</td><td>5,998</td><td>6,346,608</td><td>5,672</td><td>5,834,476</td></tr>
     <tr><td><code>J2-14-35-0</code></td><td>14</td><td>[35:34]</td><td>30*</td><td>8,844</td><td>12,568,849</td><td>8,472</td><td>11,825,421</td></tr>
     <tr><td><code>J2-14-35-1</code></td><td>14</td><td>[35:33]</td><td>29</td><td>8,974</td><td>12,392,933</td><td>8,600</td><td>11,675,397</td></tr>
-    <tr><td><code>J2-14-35-2</code></td><td>14</td><td>[35:33]</td><td>26</td><td>7,880</td><td>9,830,065</td><td>7,500</td><td>9,160,918</td></tr>
+    <tr><td><code>J2-14-35-2</code></td><td>14</td><td>[35:33]</td><td>26*</td><td>7,880</td><td>9,830,065</td><td>7,500</td><td>9,160,918</td></tr>
     <tr><td><code>J2-14-35-3</code></td><td>14</td><td>[35:29]</td><td>26</td><td>7,500</td><td>9,101,538</td><td>7,114</td><td>8,423,511</td></tr>
-    <tr><td><code>J2-14-35-4</code></td><td>14</td><td>[35:31]</td><td>26</td><td>7,708</td><td>9,475,212</td><td>7,332</td><td>8,819,151</td></tr>
+    <tr><td><code>J2-14-35-4</code></td><td>14</td><td>[35:31]</td><td>26*</td><td>7,708</td><td>9,475,212</td><td>7,332</td><td>8,819,151</td></tr>
     <!-- poly -->
     <tr>
       <td rowspan="5"><code>poly</code></td>
