@@ -30,10 +30,10 @@ def drawGraph(G,pos,Selnode,neighbors=False):
 
     plt.title('Nodes with Coordinate Axes')
 
-def drawPolygons(polygons,label,linewidth,color='red'):
+def drawPolygons(polygons,label,linewidth,color='red',fill=False):
     
     for poly in polygons[:-1]:
-        plt.gca().add_patch(Polygon(poly, fill=False, color=color,linewidth=linewidth, alpha=0.5))
+        plt.gca().add_patch(Polygon(poly, fill=fill, color=color,linewidth=linewidth, alpha=0.5))
 
-    plt.gca().add_patch(Polygon(polygons[-1], fill=False, color=color,linewidth=linewidth, alpha=0.5,label=label))
+    plt.gca().add_patch(Polygon(polygons[-1], fill=fill, color=color,linewidth=linewidth, alpha=0.5,label=label))
 
