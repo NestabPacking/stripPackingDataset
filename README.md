@@ -6,10 +6,10 @@
       <th rowspan="2">Dataset</th>
       <th rowspan="2">Name</th>
       <th rowspan="2"># polys</th>
-      <th rowspan="2">strip [W:L]</th>
-      <th rowspan="2">z* or z<sup>UB</sup></th>
-      <th colspan="2">G<sub>z*</sub></th>
-      <th colspan="2">G<sub>z*-1</sub></th>
+      <th rowspan="2">strip [W:H]</th>
+      <th rowspan="2">$\hat{z}$</th>
+      <th colspan="2">G<sub>$\hat{z}$</sub></th>
+      <th colspan="2">G<sub>$\hat{z}$-1</sub></th>
     </tr>
     <tr>
       <th>|V|</th>
