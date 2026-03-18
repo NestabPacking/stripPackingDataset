@@ -131,7 +131,7 @@
       <td><code>shirts3_6</code></td><td>39</td><td>[40:26]</td><td>24*</td><td>27,072</td><td>30,484,944</td><td>25,587</td><td>27,745,890</td>
     </tr>
     <tr>
-      <td><code>shirts4_8</code></td><td>52</td><td>[40:35]</td><td>33</td><td>53,916</td><td>93,421,034</td><td>51,936</td><td>88,297,188</td>
+      <td><code>shirts4_8</code></td><td>52</td><td>[40:35]</td><td>32</td><td>51,936</td><td>88,297,188</td><td>49,956</td><td>83,249,082</td>
     </tr>
     <tr>
       <td><code>shirts5_10</code></td><td>65</td><td>[40:42]</td><td>41</td><td>87,195</td><td>199,922,940</td><td>84,720</td><td>191,774,450</td>
