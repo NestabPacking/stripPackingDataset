@@ -89,7 +89,8 @@
 <tr><td><code>poly1c*</code></td><td>15</td><td>[40:14]</td><td>13*</td><td>3,903</td><td>1,731,285</td><td>3,369</td><td>1,332,886</td></tr>
 <tr><td><code>poly1d*</code></td><td>15</td><td>[40:14]</td><td>12*</td><td>4,017</td><td>2,104,244</td><td>3,507</td><td>1,674,134</td></tr>
 <tr><td><code>poly1e*</code></td><td>15</td><td>[40:13]</td><td>12*</td><td>3,107</td><td>1,279,502</td><td>2,576</td><td>912,612</td></tr>
-<tr><td rowspan="30"><code>GLASS20</code></td><td><code>BG20-0-20-0*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,875</td><td>3,128,285</td><td>4,565</td><td>2,861,110</td></tr>
+<tr><td rowspan="30">
+<code>GLASS20</code></td><td><code>BG20-0-20-0*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,875</td><td>3,128,285</td><td>4,565</td><td>2,861,110</td></tr>
 <tr><td><code>BG20-0-20-1*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,791</td><td>3,128,328</td><td>4,484</td><td>2,860,304</td></tr>
 <tr><td><code>BG20-0-20-2*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,747</td><td>3,086,604</td><td>4,440</td><td>2,817,249</td></tr>
 <tr><td><code>BG20-0-20-3*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,410</td><td>2,937,953</td><td>4,105</td><td>2,657,982</td></tr>
@@ -106,20 +107,21 @@
 <tr><td><code>BG20-0-40-4*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,375</td><td>8,730,371</td><td>10,698</td><td>8,057,194</td></tr>
 <tr><td><code>BG20-2.5-20-0*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,473</td><td>3,052,284</td><td>4,182</td><td>2,789,245</td></tr>
 <tr><td><code>BG20-2.5-20-1*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,425</td><td>2,981,155</td><td>4,120</td><td>2,692,651</td></tr>
-<tr><td><code>BG20-2.5-20-2*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,476</td><td>3,105,846</td><td>4,173</td><td>2,817,859</td></tr>
+<tr><td><code>BG20-2.5-20-2*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,579</td><td>3,098,973</td><td>4,274</td><td>2,815,177</td></tr>
 <tr><td><code>BG20-2.5-20-3*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,460</td><td>2,933,695</td><td>4,166</td><td>2,673,336</td></tr>
-<tr><td><code>BG20-2.5-20-4*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,495</td><td>3,014,712</td><td>4,194</td><td>2,732,995</td></tr>
+<tr><td><code>BG20-2.5-20-4*</code></td><td>20</td><td>[20:20]</td><td>20*</td><td>4,487</td><td>2,992,187</td><td>4,192</td><td>2,729,340</td></tr>
 <tr><td><code>BG20-2.5-30-0*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,855</td><td>5,845,008</td><td>7,360</td><td>5,360,009</td></tr>
 <tr><td><code>BG20-2.5-30-1*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,657</td><td>5,731,493</td><td>7,173</td><td>5,245,339</td></tr>
-<tr><td><code>BG20-2.5-30-2*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,726</td><td>5,866,902</td><td>7,254</td><td>5,409,157</td></tr>
+<tr><td><code>BG20-2.5-30-2*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,705</td><td>5,705,200</td><td>7,233</td><td>5,248,984</td></tr>
 <tr><td><code>BG20-2.5-30-3*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,529</td><td>5,683,074</td><td>7,056</td><td>5,217,672</td></tr>
-<tr><td><code>BG20-2.5-30-4*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,602</td><td>5,760,912</td><td>7,120</td><td>5,279,517</td></tr>
+<tr><td><code>BG20-2.5-30-4*</code></td><td>30</td><td>[20:20]</td><td>20*</td><td>7,609</td><td>5,864,700</td><td>7,134</td><td>5,391,381</td></tr>
 <tr><td><code>BG20-2.5-40-0*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,079</td><td>8,876,493</td><td>10,410</td><td>8,192,166</td></tr>
-<tr><td><code>BG20-2.5-40-1*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,294</td><td>8,771,941</td><td>10,620</td><td>8,102,903</td></tr>
+<tr><td><code>BG20-2.5-40-1*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,071</td><td>8,611,251</td><td>10,405</td><td>7,947,191</td></tr>
 <tr><td><code>BG20-2.5-40-2*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,187</td><td>8,534,790</td><td>10,515</td><td>7,875,002</td></tr>
 <tr><td><code>BG20-2.5-40-3*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,206</td><td>8,706,577</td><td>10,536</td><td>8,045,156</td></tr>
 <tr><td><code>BG20-2.5-40-4*</code></td><td>40</td><td>[20:20]</td><td>20*</td><td>11,301</td><td>8,637,906</td><td>10,631</td><td>7,978,997</td></tr>
-<tr><td rowspan="30"><code>GLASS25</code></td><td><code>BG25-0-20-0*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>7,284</td><td>7,330,649</td><td>6,900</td><td>6,801,953</td></tr>
+<tr><td rowspan="30">
+<code>GLASS25</code></td><td><code>BG25-0-20-0*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>7,284</td><td>7,330,649</td><td>6,900</td><td>6,801,953</td></tr>
 <tr><td><code>BG25-0-20-1*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>7,238</td><td>7,382,442</td><td>6,856</td><td>6,850,913</td></tr>
 <tr><td><code>BG25-0-20-2*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>7,403</td><td>7,669,822</td><td>7,010</td><td>7,124,089</td></tr>
 <tr><td><code>BG25-0-20-3*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>7,261</td><td>7,548,667</td><td>6,882</td><td>7,023,231</td></tr>
@@ -134,20 +136,20 @@
 <tr><td><code>BG25-0-40-2*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>17,942</td><td>21,178,340</td><td>17,099</td><td>19,898,718</td></tr>
 <tr><td><code>BG25-0-40-3*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>17,398</td><td>21,629,051</td><td>16,575</td><td>20,330,375</td></tr>
 <tr><td><code>BG25-0-40-4*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>17,891</td><td>20,704,877</td><td>17,045</td><td>19,430,888</td></tr>
-<tr><td><code>BG25-2.5-20-0*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,696</td><td>7,027,596</td><td>6,342</td><td>6,526,791</td></tr>
-<tr><td><code>BG25-2.5-20-1*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,704</td><td>6,786,658</td><td>6,333</td><td>6,240,187</td></tr>
+<tr><td><code>BG25-2.5-20-0*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,870</td><td>7,427,526</td><td>6,498</td><td>6,882,436</td></tr>
+<tr><td><code>BG25-2.5-20-1*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>7,066</td><td>7,613,546</td><td>6,688</td><td>7,068,250</td></tr>
 <tr><td><code>BG25-2.5-20-2*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,526</td><td>6,894,217</td><td>6,162</td><td>6,339,144</td></tr>
-<tr><td><code>BG25-2.5-20-3*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,479</td><td>7,158,532</td><td>6,123</td><td>6,626,371</td></tr>
-<tr><td><code>BG25-2.5-20-4*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,850</td><td>7,488,974</td><td>6,479</td><td>6,940,845</td></tr>
+<tr><td><code>BG25-2.5-20-3*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,652</td><td>7,137,861</td><td>6,282</td><td>6,583,145</td></tr>
+<tr><td><code>BG25-2.5-20-4*</code></td><td>20</td><td>[25:25]</td><td>25*</td><td>6,662</td><td>7,254,121</td><td>6,298</td><td>6,716,696</td></tr>
 <tr><td><code>BG25-2.5-30-0*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>11,781</td><td>14,000,902</td><td>11,190</td><td>13,074,339</td></tr>
-<tr><td><code>BG25-2.5-30-1*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>11,652</td><td>14,362,131</td><td>11,048</td><td>13,373,872</td></tr>
+<tr><td><code>BG25-2.5-30-1*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>12,111</td><td>14,079,757</td><td>11,496</td><td>13,136,158</td></tr>
 <tr><td><code>BG25-2.5-30-2*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>11,312</td><td>13,664,865</td><td>10,733</td><td>12,745,504</td></tr>
-<tr><td><code>BG25-2.5-30-3*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>11,550</td><td>14,381,945</td><td>10,966</td><td>13,431,676</td></tr>
+<tr><td><code>BG25-2.5-30-3*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>11,908</td><td>13,634,574</td><td>11,315</td><td>12,730,537</td></tr>
 <tr><td><code>BG25-2.5-30-4*</code></td><td>30</td><td>[25:25]</td><td>25*</td><td>11,640</td><td>13,998,072</td><td>11,044</td><td>13,045,266</td></tr>
 <tr><td><code>BG25-2.5-40-0*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>16,927</td><td>21,668,387</td><td>16,105</td><td>20,319,010</td></tr>
 <tr><td><code>BG25-2.5-40-1*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>17,033</td><td>21,650,085</td><td>16,197</td><td>20,277,916</td></tr>
 <tr><td><code>BG25-2.5-40-2*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>17,121</td><td>21,427,509</td><td>16,283</td><td>20,066,015</td></tr>
 <tr><td><code>BG25-2.5-40-3*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>16,928</td><td>21,435,265</td><td>16,095</td><td>20,071,014</td></tr>
-<tr><td><code>BG25-2.5-40-4*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>16,926</td><td>21,322,137</td><td>16,107</td><td>19,999,247</td></tr>
+<tr><td><code>BG25-2.5-40-4*</code></td><td>40</td><td>[25:25]</td><td>25*</td><td>17,104</td><td>21,204,355</td><td>16,284</td><td>19,897,135</td></tr>
   </tbody>
 </table>
