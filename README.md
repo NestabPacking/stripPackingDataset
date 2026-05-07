@@ -20,7 +20,7 @@
 <tr><td><code>SHAPES5</code></td><td>20</td><td>[40:35]</td><td>30</td><td>13,690</td><td>21,548,140</td><td>13,015</td><td>19,951,545</td></tr>
 <tr><td><code>SHAPES7</code></td><td>28</td><td>[40:48]</td><td>42</td><td>30,506</td><td>77,383,222</td><td>29,561</td><td>74,090,422</td></tr>
 <tr><td><code>SHAPES9</code></td><td>34</td><td>[40:54]</td><td>52</td><td>48,994</td><td>156,806,688</td><td>47,837</td><td>151,842,706</td></tr>
-<tr><td><code>SHAPES15</code></td><td>43</td><td>[40:67]</td><td>67</td><td>84,523</td><td>359,127,969</td><td>83,045</td><td>350,856,352</td></tr>
+<tr><td><code>SHAPES15</code></td><td>43</td><td>[40:67]</td><td>64</td><td>80,089</td><td>334,466,274</td><td>78,611</td><td>326,347,813</td></tr>
 <tr><td rowspan="6">
 <code>BLAZEWICZ</code></td><td><code>blasz2</code></td><td>20</td><td>[15:27]</td><td>26*</td><td>5,175</td><td>2,763,370</td><td>4,950</td><td>2,608,195</td></tr>
 <tr><td><code>BLAZEWICZ1*</code></td><td>7</td><td>[15:8]</td><td>8*</td><td>432</td><td>44,732</td><td>349</td><td>30,858</td></tr>
